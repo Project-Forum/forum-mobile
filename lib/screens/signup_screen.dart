@@ -88,7 +88,7 @@ class SignUpScreen extends StatelessWidget {
                       backgroundColor: RomusaColor.colorPrimary),
                   child: Text(
                     "Masuk",
-                    style: fontWhite700.copyWith(fontSize: 17.0),
+                    style: fontWhite700.copyWith(fontSize: 16.0),
                   ),
                 )),
             const SizedBox(
@@ -99,36 +99,58 @@ class SignUpScreen extends StatelessWidget {
               children: [
                 Text(
                   "Belum punya akun? ",
-                  style: fontBlack500.copyWith(fontSize: 17.0),
+                  style: fontBlack500.copyWith(fontSize: 16.0),
                 ),
                 TextButton(
                   onPressed: () {},
                   child: Text(
                     "Daftar Sekarang",
-                    style: fontPrimary700.copyWith(fontSize: 17.0),
+                    style: fontPrimary700.copyWith(fontSize: 16.0),
                   ),
                 )
               ],
             ),
 
             // NOTE: BREAK LINE
-            const Divider(
-              thickness: 1,
-              color: Colors.amber,
-            ),
-            const SizedBox(
+            // const Divider(
+            //   thickness: 1,
+            //   color: Colors.amber,
+            // ),
+            Container(
+              margin: const EdgeInsets.symmetric(vertical: 20.0),
               width: double.infinity,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Divider(
-                    thickness: 1,
-                    color: Colors.amber,
+                  Expanded(
+                    child: Divider(
+                      thickness: 1,
+                      endIndent: 2,
+                      color: RomusaColor.colorDisable,
+                    ),
                   ),
-                  Text("Atau"),
+                  const Text("Atau"),
+                  Expanded(
+                    child: Divider(
+                      indent: 2,
+                      thickness: 1,
+                      color: RomusaColor.colorDisable,
+                    ),
+                  ),
                 ],
               ),
             ),
+            SizedBox(
+              width: double.infinity,
+              child: TextButton(
+                onPressed: () {},
+                child: Text(
+                  "Masuk Sebagai Tamu",
+                  style: fontPrimary700.copyWith(fontSize: 16.0),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            )
           ],
         ),
       ),
