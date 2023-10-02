@@ -3,9 +3,10 @@ import 'package:romusa/styles/colors.dart';
 import 'package:romusa/styles/fonts.dart';
 
 // ignore: must_be_immutable
-class ButtonDefaultWidget extends StatelessWidget {
+class ButtonWhiteWidget extends StatelessWidget {
   String? text;
-   ButtonDefaultWidget({super.key, this.text="Masuk"});
+
+  ButtonWhiteWidget({super.key, this.text = "Daftar masuk"});
 
   @override
   Widget build(BuildContext context) {
@@ -15,10 +16,10 @@ class ButtonDefaultWidget extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {},
           style: ElevatedButton.styleFrom(
-              backgroundColor: RomusaColor.colorPrimary),
+              backgroundColor: RomusaColor.colorSecondary),
           child: Text(
             text!,
-            style: fontWhite700.copyWith(fontSize: 16.0),
+            style: fontPrimary700.copyWith(fontSize: 16.0),
           ),
         ));
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:romusa/config/routes_config.dart';
+import 'package:romusa/screens/onboarding_screen.dart';
 import 'package:romusa/screens/splash_screen.dart';
 import 'package:romusa/screens/success_screen.dart';
 
@@ -12,10 +13,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: RomusaRoute.successScreen,
+      initialRoute: RomusaRoute.onBoardingScreen,
       routes: {
         RomusaRoute.splashScreen: (context) => const SplashScreen(),
-        RomusaRoute.successScreen: (context) => const SuccessScreen()
+        RomusaRoute.onBoardingScreen: (context) => const OnboardingScreen(),
+        RomusaRoute.successScreen: (context) => const SuccessScreen(),
       },
     );
   }
