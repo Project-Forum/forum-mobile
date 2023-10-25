@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:romusa/styles/fonts.dart';
+import 'package:romusa_mobile/styles/fonts.dart';
 
 class SuccessScreen extends StatelessWidget {
   const SuccessScreen({super.key});

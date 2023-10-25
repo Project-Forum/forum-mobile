@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:romusa/styles/fonts.dart';
+import 'package:romusa_mobile/styles/fonts.dart';
 
 // ignore: must_be_immutable
 class TextButtonWidget extends StatelessWidget {
