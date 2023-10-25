@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:romusa/screens/signup_screen.dart';
-import 'package:romusa/styles/colors.dart';
+import 'package:romusa_mobile/screens/signup_screen.dart';
+import 'package:romusa_mobile/styles/colors.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

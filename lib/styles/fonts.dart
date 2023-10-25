@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:romusa/styles/colors.dart';
+import 'package:romusa_mobile/styles/colors.dart';
 
 // NOTE: FONT WHITE
 TextStyle fontWhite300 = GoogleFonts.openSans(

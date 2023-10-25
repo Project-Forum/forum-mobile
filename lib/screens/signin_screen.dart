@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:romusa/styles/colors.dart';
-import 'package:romusa/styles/fonts.dart';
-import 'package:romusa/widgets/form_text_widget.dart';
-import 'package:romusa/widgets/header_widget.dart';
+import 'package:romusa_mobile/styles/colors.dart';
+import 'package:romusa_mobile/styles/fonts.dart';
+import 'package:romusa_mobile/widgets/form_text_widget.dart';
+import 'package:romusa_mobile/widgets/header_widget.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});

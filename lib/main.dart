@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:romusa/config/routes_config.dart';
-import 'package:romusa/screens/onboarding_screen.dart';
-import 'package:romusa/screens/splash_screen.dart';
-import 'package:romusa/screens/success_screen.dart';
+import 'package:romusa_mobile/config/routes_config.dart';
+import 'package:romusa_mobile/screens/onboarding_screen.dart';
+import 'package:romusa_mobile/screens/splash_screen.dart';
+import 'package:romusa_mobile/screens/success_screen.dart';
 
 void main() => runApp(const MainApp());
 

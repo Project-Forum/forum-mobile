@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:romusa/widgets/button_default_widget.dart';
-import 'package:romusa/widgets/button_white_widget.dart';
+import 'package:romusa_mobile/widgets/button_default_widget.dart';
+import 'package:romusa_mobile/widgets/button_white_widget.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});

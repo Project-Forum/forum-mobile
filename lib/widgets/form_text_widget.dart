@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:romusa/styles/colors.dart';
+import 'package:romusa_mobile/styles/colors.dart';
 
 // ignore: must_be_immutable
 class FormTextDefaultWidget extends StatelessWidget {
