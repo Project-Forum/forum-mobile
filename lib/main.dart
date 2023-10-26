@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: RomusaRoute.onBoardingScreen,
+      initialRoute: RomusaRoute.splashScreen,
       routes: {
         RomusaRoute.splashScreen: (context) => const SplashScreen(),
         RomusaRoute.onBoardingScreen: (context) => const OnboardingScreen(),
